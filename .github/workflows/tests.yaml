@@ -1,5 +1,5 @@
 name: Automated tests
-on: pull_resquest
+on: pull_request
 jobs:
   jest:
     name: Jest Ubuntu
