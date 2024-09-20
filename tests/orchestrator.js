@@ -18,6 +18,7 @@ async function waitForAllServers() {
   }
 }
 
-export default {
+const orchestrator = {
   waitForAllServers,
 };
+export default orchestrator;
